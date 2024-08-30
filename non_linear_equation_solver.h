@@ -13,7 +13,6 @@ private:
 
     double bisectionMethod(double a, double b, double tolerance = 1e-6);
     double newtonRaphsonMethod(double initialGuess, double tolerance = 1e-6);
-    double secantMethod(double x0, double x1, double tolerance = 1e-10);
-    double fixedPointIteration(double initialGuess = 0.5, double tolerance = 1e-10);
+    double secantMethod(double x0, double x1, double tolerance = 1e-6);
+    double fixedPointIteration(double initialGuess = 0.5, double tolerance = 1e-6);
 };
-

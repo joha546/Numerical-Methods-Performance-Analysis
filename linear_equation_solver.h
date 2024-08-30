@@ -19,4 +19,3 @@ private:
     Vector jacobiMethod(double tolerance = 1e-10, int maxIterations = 1000);
     Vector gaussSeidelMethod(double tolerance = 1e-10, int maxIterations = 1000);
 };
-
