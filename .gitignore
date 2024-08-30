@@ -3,3 +3,6 @@ bin/
 obj/
 "Numerical Analysis.cbp"/
 "Numerical Analysis.depend"/
+build/
+out/
+.vs/
